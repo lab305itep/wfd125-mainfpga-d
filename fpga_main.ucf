@@ -1,0 +1,370 @@
+# Pinouts for main wfd125 fpga
+# VME interface
+# Address
+NET "XA<0>" LOC = Y5;
+NET "XA<1>" LOC = M5;
+NET "XA<2>" LOC = N3;
+NET "XA<3>" LOC = M3;
+NET "XA<4>" LOC = N1;
+NET "XA<5>" LOC = U6;
+NET "XA<6>" LOC = V5;
+NET "XA<7>" LOC = V7;
+NET "XA<8>" LOC = N4;
+NET "XA<9>" LOC = N6;
+NET "XA<10>" LOC = P4;
+NET "XA<11>" LOC = P5;
+NET "XA<12>" LOC = T4;
+NET "XA<13>" LOC = U4;
+NET "XA<14>" LOC = V3;
+NET "XA<15>" LOC = W3;
+NET "XA<16>" LOC = W1;
+NET "XA<17>" LOC = W4;
+NET "XA<18>" LOC = V2;
+NET "XA<19>" LOC = Y2;
+NET "XA<20>" LOC = AA2;
+NET "XA<21>" LOC = Y1;
+NET "XA<22>" LOC = AA1;
+NET "XA<23>" LOC = Y3;
+NET "XA<24>" LOC = N7;
+NET "XA<25>" LOC = T2;
+NET "XA<26>" LOC = P2;
+NET "XA<27>" LOC = R4;
+NET "XA<28>" LOC = R1;
+NET "XA<29>" LOC = R3;
+NET "XA<30>" LOC = P6;
+NET "XA<31>" LOC = P3;
+# Address modifier
+NET "XAM<0>" LOC = Y7;
+NET "XAM<1>" LOC = AB7;
+NET "XAM<2>" LOC = W8;
+NET "XAM<3>" LOC = W6;
+NET "XAM<4>" LOC = W9;
+NET "XAM<5>" LOC = U8;
+# Geographical addr (useless as now)
+NET "XGA<0>" LOC = Y10;
+NET "XGA<1>" LOC = AB10;
+NET "XGA<2>" LOC = AB8;
+NET "XGA<3>" LOC = Y8;
+NET "XGA<4>" LOC = T7;
+NET "XGA<5>" LOC = AB9;
+# Data
+NET "XD<0>" LOC = AB14;
+NET "XD<1>" LOC = AA14;
+NET "XD<2>" LOC = Y14;
+NET "XD<3>" LOC = Y13;
+NET "XD<4>" LOC = W13;
+NET "XD<5>" LOC = AA12;
+NET "XD<6>" LOC = W12;
+NET "XD<7>" LOC = Y12;
+NET "XD<8>" LOC = V15;
+NET "XD<9>" LOC = W14;
+NET "XD<10>" LOC = V13;
+NET "XD<11>" LOC = AB12;
+NET "XD<12>" LOC = Y11;
+NET "XD<13>" LOC = AB11;
+NET "XD<14>" LOC = V11;
+NET "XD<15>" LOC = T10;
+NET "XD<16>" LOC = H1;
+NET "XD<17>" LOC = H5;
+NET "XD<18>" LOC = H2;
+NET "XD<19>" LOC = G3;
+NET "XD<20>" LOC = H3;
+NET "XD<21>" LOC = G1;
+NET "XD<22>" LOC = G4;
+NET "XD<23>" LOC = H6;
+NET "XD<24>" LOC = E4;
+NET "XD<25>" LOC = J7;
+NET "XD<26>" LOC = F3;
+NET "XD<27>" LOC = G7;
+NET "XD<28>" LOC = F5;
+NET "XD<29>" LOC = E1;
+NET "XD<30>" LOC = E3;
+NET "XD<31>" LOC = F2;
+# Strobes
+NET "XAS" LOC = V9;
+NET "XDS<0>" LOC = AA10;
+NET "XDS<1>" LOC = Y9;
+NET "XWRITE" LOC = AA8;
+NET "XDTACK" LOC = AB5;
+NET "XDTACKOE" LOC = AB6;
+NET "ADIR" LOC = AA4;
+NET "DDIR" LOC = W15;
+# Errors/resets
+NET "XRESET" LOC = AB4;
+NET "XBERR" LOC = W10;
+NET "XRETRY" LOC = W11;
+NET "XRESP" LOC = T8;
+# Interrupt handling
+NET "XIACK" LOC = Y6;
+NET "XIACKIN" LOC = AA6;
+NET "IACKPASS" LOC = P1;
+# Interrupts
+NET "XIRQ<0>" LOC = V1;
+NET "XIRQ<1>" LOC = T1;
+NET "XIRQ<2>" LOC = T5;
+NET "XIRQ<3>" LOC = T3;
+NET "XIRQ<4>" LOC = U3;
+NET "XIRQ<5>" LOC = U1;
+
+# Interconnection to CPLD
+NET "C2X<0>" LOC = M1;
+NET "C2X<1>" LOC = M6;
+NET "C2X<2>" LOC = M2;
+NET "C2X<3>" LOC = L3;
+NET "C2X<4>" LOC = M4;
+NET "C2X<5>" LOC = L1;
+NET "C2X<6>" LOC = L4;
+NET "C2X<7>" LOC = L6;
+
+# Parallel lines to other FPGAs
+# 0-1 "good pair"
+NET "ICX<0>" LOC = D2;
+NET "ICX<1>" LOC = D1;
+NET "ICX<2>" LOC = C1;
+NET "ICX<3>" LOC = B1;
+NET "ICX<4>" LOC = B2;
+NET "ICX<5>" LOC = A2;
+NET "ICX<6>" LOC = C3;
+NET "ICX<7>" LOC = D3;
+NET "ICX<8>" LOC = B3;
+NET "ICX<9>" LOC = A3;
+# 10-11 "satisfactory pair"
+NET "ICX<10>" LOC = C4;
+NET "ICX<11>" LOC = A4;
+# 12-13 "satisfactory pair"
+NET "ICX<12>" LOC = C5;
+NET "ICX<13>" LOC = A5;
+# 14-15 "good pair"
+NET "ICX<14>" LOC = D4;
+NET "ICX<15>" LOC = D5;
+
+# Fast serial connections and CLK
+#INST "mygtp_i/tile0_mygtp_i/gtpa1_dual_i" LOC = GTPA1_DUAL_X0Y0;
+#INST "tile0_gtp0_refclk_ibufds_i" LOC = BUFDS_X1Y2;
+# Main Clock
+NET "RCLK<0>" LOC = A10;
+NET "RCLK<1>" LOC = B10;
+# Recievers
+NET "RX0<0>" LOC = D7;
+NET "RX0<1>" LOC = C7;
+NET "RX1<0>" LOC = D9;
+NET "RX1<1>" LOC = C9;
+NET "RX2<0>" LOC = D13;
+NET "RX2<1>" LOC = C13;
+NET "RX3<0>" LOC = D15;
+NET "RX3<1>" LOC = C15;
+# Transmitters
+NET "TX0<0>" LOC = B6;
+NET "TX0<1>" LOC = A6;
+NET "TX1<0>" LOC = B8;
+NET "TX1<1>" LOC = A8;
+NET "TX2<0>" LOC = B14;
+NET "TX2<1>" LOC = A14;
+NET "TX3<0>" LOC = B16;
+NET "TX3<1>" LOC = A16;
+
+# Serial interfaces
+# Clock Buffer I2C
+NET "CBUFSCL" LOC = B20;
+NET "CBUFSDA" LOC = C18;
+# DAC SPI
+NET "BDACC" LOC = C17;
+NET "BDACD" LOC = A18;
+NET "BDACCS" LOC = A17;
+
+# Clock selection
+NET "ECLKSEL" LOC = E5;
+NET "OCLKSEL" LOC = H8;
+NET "CLKENFP" LOC = F1;
+NET "CLKENBP" LOC = G6;
+NET "CLKENBFP" LOC = F9;
+
+# Front Panel
+# Indication LEDS (LED0 - Yellow)
+NET "led<0>" LOC = C19;
+NET "led<1>" LOC = A20;
+NET "led<2>" LOC = A19;
+NET "led<3>" LOC = B18;
+# Front panel pairs (even-odd)
+NET "FP<0>" LOC = E16 | DIFF_TERM = "TRUE";
+NET "FP<1>" LOC = F16 | DIFF_TERM = "TRUE";
+NET "FP<2>" LOC = H14 | DIFF_TERM = "TRUE";
+NET "FP<3>" LOC = G15 | DIFF_TERM = "TRUE";
+NET "FP<4>" LOC = D18 | DIFF_TERM = "TRUE";
+NET "FP<5>" LOC = D19 | DIFF_TERM = "TRUE";
+
+# Back panel
+# 0-2 - "next-by-next" BP pair, X-pair, board pair
+# 1-3 - "next-by-next" BP pair, X-pair, board pair
+# 7-9 - "next-by-next" BP pair, X-pair, board pair
+NET "USRDEF<0>" LOC = K4;
+NET "USRDEF<1>" LOC = K6;
+NET "USRDEF<2>" LOC = K3;
+NET "USRDEF<3>" LOC = K5;
+NET "USRDEF<4>" LOC = J4;
+# 6-5 - "real" BP pair, X-pair, but NOT board pair
+NET "USRDEF<5>" LOC = J1;
+NET "USRDEF<6>" LOC = J3;
+NET "USRDEF<7>" LOC = K2;
+NET "USRDEF<8>" LOC = H4;
+NET "USRDEF<9>" LOC = K1;
+
+# FLASH/Config interface
+NET "INIT" LOC = Y4;
+NET "M<0>" LOC = AA21;
+NET "M<1>" LOC = Y19;
+NET "DOUT" LOC = V20;
+NET "FLASHCS" LOC = AA3;
+NET "FLASHCLK" LOC = Y20;
+NET "FDAT<0>" LOC = AB20;
+NET "FDAT<1>" LOC = AA20;
+NET "FDAT<2>" LOC = R13;
+NET "FDAT<3>" LOC = T14;
+
+# Ethernet PHY interface
+# Input
+NET "PHYRXCLK" LOC = AB13;
+NET "PHYRXDVLD" LOC = Y15;
+NET "PHYRXD<0>" LOC = AB15;
+NET "PHYRXD<1>" LOC = Y16;
+NET "PHYRXD<2>" LOC = AB16;
+NET "PHYRXD<3>" LOC = AA16;
+# Output
+NET "PHYTXCLK" LOC = Y17;
+NET "PHYTXENB" LOC = AB17;
+NET "PHYTXD<0>" LOC = Y18;
+NET "PHYTXD<1>" LOC = AB19;
+NET "PHYTXD<2>" LOC = AA18;
+NET "PHYTXD<3>" LOC = AB18;
+# Slow interface
+NET "PHYMDIO" LOC = V17;
+NET "PHYMDC" LOC = W18;
+NET "PHYRST" LOC = U16;
+NET "PHYINT" LOC = W17;
+
+NET "reg_csr/trig_from_FP" TIG;
+NET "reg_csr/trig_from_BP" TIG;
+NET "reg_csr/inh_from_FP" TIG;
+NET "reg_csr/inh_from_BP" TIG;
+
+# SDRAM interface
+CONFIG MCB_PERFORMANCE= EXTENDED;
+# Timing Ignore constraints for paths crossing the clock domain 
+#NET "memc1_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/selfrefresh_mcb_mode" TIG;
+#NET "c1_pll_lock" TIG;
+#INST "memc1_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/DONE_SOFTANDHARD_CAL*" TIG;
+#Please uncomment the below TIG if used in a design which enables self-refresh mode
+#NET "memc1_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/SELFREFRESH_MCB_REQ" TIG;
+############################################################################
+## Memory Device: DDR3_SDRAM->MT41J256M16XX-125 
+## Frequency: 125 MHz
+## Time Period: 8000 ps
+############################################################################
+## Clock constraints
+## not needed for internal clocks                                                        
+#NET "memc1_infrastructure_inst/sys_clk_ibufg" TNM_NET = "SYS_CLK1";
+#TIMESPEC "TS_SYS_CLK1" = PERIOD "SYS_CLK1"  8  ns HIGH 50 %;
+## I/O TERMINATION                                                          
+NET "MEMD[*]"             IN_TERM = NONE;
+NET "MEMLDQS[*]"          IN_TERM = NONE;
+NET "MEMUDQS[*]"          IN_TERM = NONE;
+# I/O STANDARDS 
+NET  "MEMD[*]"            IOSTANDARD = SSTL15_II  |OUT_TERM = UNTUNED_50;
+NET  "MEMA[*]"            IOSTANDARD = SSTL15_II  |OUT_TERM = UNTUNED_50;
+NET  "MEMBA[*]"           IOSTANDARD = SSTL15_II  |OUT_TERM = UNTUNED_50;
+NET  "MEMLDQS[*]"         IOSTANDARD = DIFF_SSTL15_II  |OUT_TERM = UNTUNED_50;
+NET  "MEMUDQS[*]"         IOSTANDARD = DIFF_SSTL15_II  |OUT_TERM = UNTUNED_50;
+NET  "MEMCK[*]"           IOSTANDARD = DIFF_SSTL15_II  |OUT_TERM = UNTUNED_50;
+#NET  "MEMLDQS[*]"         IOSTANDARD = SSTL15_II  |OUT_TERM = UNTUNED_50;
+#NET  "MEMUDQS[*]"         IOSTANDARD = SSTL15_II  |OUT_TERM = UNTUNED_50;
+#NET  "MEMCK[*]"           IOSTANDARD = SSTL15_II  |OUT_TERM = UNTUNED_50;
+NET  "MEMCKE"             IOSTANDARD = SSTL15_II  |OUT_TERM = UNTUNED_50;
+NET  "MEMRAS"             IOSTANDARD = SSTL15_II  |OUT_TERM = UNTUNED_50;
+NET  "MEMCAS"             IOSTANDARD = SSTL15_II  |OUT_TERM = UNTUNED_50;
+NET  "MEMWE"              IOSTANDARD = SSTL15_II  |OUT_TERM = UNTUNED_50;
+NET  "MEMODT"             IOSTANDARD = SSTL15_II  |OUT_TERM = UNTUNED_50;
+NET  "MEMRST"             IOSTANDARD = LVCMOS15  ;
+NET  "MEMLDM"             IOSTANDARD = SSTL15_II  |OUT_TERM = UNTUNED_50;
+NET  "MEMUDM"             IOSTANDARD = SSTL15_II  |OUT_TERM = UNTUNED_50;
+NET  "MEMRZQ"             IOSTANDARD = SSTL15_II  |OUT_TERM = UNTUNED_50;
+NET  "MEMZIO"             IOSTANDARD = SSTL15_II  |OUT_TERM = UNTUNED_50;
+# pin locations
+# Address
+NET "MEMA<0>" LOC = H21;
+NET "MEMA<1>" LOC = H22;
+NET "MEMA<2>" LOC = G22;
+NET "MEMA<3>" LOC = J20;
+NET "MEMA<4>" LOC = H20;
+NET "MEMA<5>" LOC = M20;
+NET "MEMA<6>" LOC = M19;
+NET "MEMA<7>" LOC = G20;
+NET "MEMA<8>" LOC = E20;
+NET "MEMA<9>" LOC = E22;
+NET "MEMA<10>" LOC = J19;
+NET "MEMA<11>" LOC = H19;
+NET "MEMA<12>" LOC = F22;
+NET "MEMA<13>" LOC = G19;
+NET "MEMA<14>" LOC = F20;
+# Bank addr
+NET "MEMBA<0>" LOC = K17;
+NET "MEMBA<1>" LOC = L17;
+NET "MEMBA<2>" LOC = K18;
+# Data
+NET "MEMD<0>" LOC = R20;
+NET "MEMD<1>" LOC = R22;
+NET "MEMD<2>" LOC = P21;
+NET "MEMD<3>" LOC = P22;
+NET "MEMD<4>" LOC = L20;
+NET "MEMD<5>" LOC = L22;
+NET "MEMD<6>" LOC = M21;
+NET "MEMD<7>" LOC = M22;
+NET "MEMD<8>" LOC = T21;
+NET "MEMD<9>" LOC = T22;
+NET "MEMD<10>" LOC = U20;
+NET "MEMD<11>" LOC = U22;
+NET "MEMD<12>" LOC = W20;
+NET "MEMD<13>" LOC = W22;
+NET "MEMD<14>" LOC = Y21;
+NET "MEMD<15>" LOC = Y22;
+# Other single ended
+NET "MEMRST" LOC = H18;
+NET "MEMCKE" LOC = F21;
+NET "MEMWE" LOC = K19;
+NET "MEMODT" LOC = J22;
+NET "MEMRAS" LOC = K21;
+NET "MEMCAS" LOC = K22;
+NET "MEMUDM" LOC = P20;
+NET "MEMLDM" LOC = N19;
+# Pairs
+NET "MEMCK<0>" LOC = K20;
+NET "MEMCK<1>" LOC = L19;
+NET "MEMUDQS<0>" LOC = V21;
+NET "MEMUDQS<1>" LOC = V22;
+NET "MEMLDQS<0>" LOC = N20;
+NET "MEMLDQS<1>" LOC = N22;
+# Impedance matching
+NET "MEMZIO" LOC = P19;
+NET "MEMRZQ" LOC = D21;
+
+# Test points
+NET "TP<1>" LOC = T18 | IOSTANDARD = LVCMOS15;
+NET "TP<2>" LOC = T19 | IOSTANDARD = LVCMOS15;
+NET "TP<3>" LOC = U19 | IOSTANDARD = LVCMOS15;
+NET "TP<4>" LOC = V19 | IOSTANDARD = LVCMOS15;
+NET "TP<5>" LOC = T17 | IOSTANDARD = LVCMOS15;
+#Created by Constraints Editor (xc6slx45t-fgg484-2) - 2014/09/24
+#NET "wb_clk" TNM_NET = wb_clk;
+#TIMESPEC TS_wb_clk = PERIOD "wb_clk" 13 ns HIGH 50%;
+#NET "CLK125" TNM_NET = CLK125;
+#TIMESPEC TS_CLK125 = PERIOD "CLK125" 8 ns HIGH 50%;
+#NET "RCLK<0>" TNM_NET = RCLK<0>;
+#TIMESPEC TS_RCLK_0_ = PERIOD "RCLK<0>" 8 ns HIGH 50%;
+#NET "RCLK<1>" TNM_NET = RCLK<1>;
+#TIMESPEC TS_RCLK_1_ = PERIOD "RCLK<1>" 8 ns HIGH 50%;
+NET "UGTP/gtpclk_o<0>" TNM_NET = gtpclk;
+TIMESPEC TS_gtpclk = PERIOD "gtpclk" 8 ns HIGH 50%;
+#Created by Constraints Editor (xc6slx45t-fgg484-2) - 2015/03/03
+NET "RCLK<0>" TNM_NET = RCLK<0>;
+TIMESPEC TS_RCLK_0_ = PERIOD "RCLK<0>" 8 ns HIGH 50%;
+NET "RCLK<1>" TNM_NET = RCLK<1>;
+TIMESPEC TS_RCLK_1_ = PERIOD "RCLK<1>" 8 ns HIGH 50%;

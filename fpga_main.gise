@@ -23,20 +23,6 @@
 
   <files xmlns="http://www.xilinx.com/XMLSchema">
     <file xil_pn:fileType="FILE_LOG" xil_pn:name="../wfd125-mainfpga/ipcore_dir/coregen.log"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VERILOG" xil_pn:name="../wfd125-mainfpga/ipcore_dir/s6_gtpwizard_v1_11.v" xil_pn:origination="imported"/>
-    <file xil_pn:fileType="FILE_VEO" xil_pn:name="../wfd125-mainfpga/ipcore_dir/s6_gtpwizard_v1_11.veo" xil_pn:origination="imported"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VERILOG" xil_pn:name="../wfd125-mainfpga/ipcore_dir/s6_gtpwizard_v1_11/example_design/frame_check.v" xil_pn:origination="imported"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VERILOG" xil_pn:name="../wfd125-mainfpga/ipcore_dir/s6_gtpwizard_v1_11/example_design/frame_gen.v" xil_pn:origination="imported"/>
-    <file xil_pn:fileType="FILE_UCF" xil_pn:name="../wfd125-mainfpga/ipcore_dir/s6_gtpwizard_v1_11/example_design/gtp_attributes.ucf" xil_pn:origination="imported"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VERILOG" xil_pn:name="../wfd125-mainfpga/ipcore_dir/s6_gtpwizard_v1_11/example_design/mgt_usrclk_source_pll.v" xil_pn:origination="imported"/>
-    <file xil_pn:fileType="FILE_UCF" xil_pn:name="../wfd125-mainfpga/ipcore_dir/s6_gtpwizard_v1_11/example_design/s6_gtpwizard_v1_11_top.ucf" xil_pn:origination="imported"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VERILOG" xil_pn:name="../wfd125-mainfpga/ipcore_dir/s6_gtpwizard_v1_11/example_design/s6_gtpwizard_v1_11_top.v" xil_pn:origination="imported"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="../wfd125-mainfpga/ipcore_dir/s6_gtpwizard_v1_11/implement/data_vio.ngc" xil_pn:origination="imported"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="../wfd125-mainfpga/ipcore_dir/s6_gtpwizard_v1_11/implement/icon.ngc" xil_pn:origination="imported"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="../wfd125-mainfpga/ipcore_dir/s6_gtpwizard_v1_11/implement/ila.ngc" xil_pn:origination="imported"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="../wfd125-mainfpga/ipcore_dir/s6_gtpwizard_v1_11/implement/null_vio.ngc" xil_pn:origination="imported"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="../wfd125-mainfpga/ipcore_dir/s6_gtpwizard_v1_11/implement/shared_vio.ngc" xil_pn:origination="imported"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VERILOG" xil_pn:name="../wfd125-mainfpga/ipcore_dir/s6_gtpwizard_v1_11_tile.v" xil_pn:origination="imported"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="VME64xCore_Top.prj"/>
     <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="VME64xCore_Top.stx"/>
     <file xil_pn:fileType="FILE_XST" xil_pn:name="VME64xCore_Top.xst"/>
@@ -227,6 +213,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="InputAdded"/>
@@ -239,6 +226,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="NotReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="InputRemoved"/>
@@ -284,7 +272,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1476052145" xil_pn:in_ck="-5583642415111546358" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="4949024577423651660" xil_pn:start_ts="1476052078">
+    <transform xil_pn:end_ts="1476117346" xil_pn:in_ck="603613977857052627" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="4949024577423651660" xil_pn:start_ts="1476117292">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
@@ -302,11 +290,11 @@
       <outfile xil_pn:name="webtalk_pn.xml"/>
       <outfile xil_pn:name="xst"/>
     </transform>
-    <transform xil_pn:end_ts="1476051356" xil_pn:in_ck="-8519601349141557106" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="8767341520758223336" xil_pn:start_ts="1476051355">
+    <transform xil_pn:end_ts="1476118761" xil_pn:in_ck="-489406137388668716" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="8767341520758223336" xil_pn:start_ts="1476118761">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1476052157" xil_pn:in_ck="779611510340693928" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-2500476194847599682" xil_pn:start_ts="1476052145">
+    <transform xil_pn:end_ts="1476118772" xil_pn:in_ck="779611510340693928" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-2500476194847599682" xil_pn:start_ts="1476118761">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
@@ -316,7 +304,7 @@
       <outfile xil_pn:name="fpga_maind.ngd"/>
       <outfile xil_pn:name="fpga_maind_ngdbuild.xrpt"/>
     </transform>
-    <transform xil_pn:end_ts="1476052304" xil_pn:in_ck="-6647520174649082117" xil_pn:name="TRANEXT_map_spartan6" xil_pn:prop_ck="162888403099749330" xil_pn:start_ts="1476052157">
+    <transform xil_pn:end_ts="1476118887" xil_pn:in_ck="-6647520174649082117" xil_pn:name="TRANEXT_map_spartan6" xil_pn:prop_ck="162888403099749330" xil_pn:start_ts="1476118772">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
@@ -330,7 +318,7 @@
       <outfile xil_pn:name="fpga_maind_summary.xml"/>
       <outfile xil_pn:name="fpga_maind_usage.xml"/>
     </transform>
-    <transform xil_pn:end_ts="1476052471" xil_pn:in_ck="3667790734077875092" xil_pn:name="TRANEXT_par_spartan6" xil_pn:prop_ck="3214117756270688487" xil_pn:start_ts="1476052304">
+    <transform xil_pn:end_ts="1476119166" xil_pn:in_ck="3667790734077875092" xil_pn:name="TRANEXT_par_spartan6" xil_pn:prop_ck="3214117756270688487" xil_pn:start_ts="1476118887">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
@@ -345,7 +333,7 @@
       <outfile xil_pn:name="fpga_maind_pad.txt"/>
       <outfile xil_pn:name="fpga_maind_par.xrpt"/>
     </transform>
-    <transform xil_pn:end_ts="1476052507" xil_pn:in_ck="-4445683415966610071" xil_pn:name="TRANEXT_bitFile_spartan6" xil_pn:prop_ck="396117104113915555" xil_pn:start_ts="1476052471">
+    <transform xil_pn:end_ts="1476119201" xil_pn:in_ck="-4445683415966610071" xil_pn:name="TRANEXT_bitFile_spartan6" xil_pn:prop_ck="396117104113915555" xil_pn:start_ts="1476119166">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
@@ -375,7 +363,7 @@
       <status xil_pn:value="InputRemoved"/>
       <status xil_pn:value="OutputRemoved"/>
     </transform>
-    <transform xil_pn:end_ts="1476052471" xil_pn:in_ck="-6647520174649082249" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416184" xil_pn:start_ts="1476052454">
+    <transform xil_pn:end_ts="1476119166" xil_pn:in_ck="-6647520174649082249" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416184" xil_pn:start_ts="1476119152">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>

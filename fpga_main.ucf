@@ -246,6 +246,7 @@ NET "reg_csr/trig_from_FP" TIG;
 NET "reg_csr/trig_from_BP" TIG;
 NET "reg_csr/inh_from_FP" TIG;
 NET "reg_csr/inh_from_BP" TIG;
+NET "reg_csr/trig1_from_FP" TIG;
 
 # SDRAM interface
 CONFIG MCB_PERFORMANCE= EXTENDED;

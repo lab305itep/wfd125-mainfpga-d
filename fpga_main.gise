@@ -224,7 +224,7 @@
     </transform>
     <transform xil_pn:end_ts="1435770803" xil_pn:in_ck="-7646379162410235502" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="5762288062694002800" xil_pn:start_ts="1435770803">
       <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="NotReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForProperties"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
@@ -241,7 +241,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1476051346" xil_pn:in_ck="6384600455171624245" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="3173207514456299613" xil_pn:start_ts="1476051345">
+    <transform xil_pn:end_ts="1732829011" xil_pn:in_ck="6384600455171624245" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="3173207514456299613" xil_pn:start_ts="1732829011">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="../wfd125-mainfpga/ipcore_dir/s6_gtpwizard_v1_11.v"/>
@@ -249,11 +249,6 @@
       <outfile xil_pn:name="../wfd125-mainfpga/ipcore_dir/s6_gtpwizard_v1_11/example_design/frame_gen.v"/>
       <outfile xil_pn:name="../wfd125-mainfpga/ipcore_dir/s6_gtpwizard_v1_11/example_design/mgt_usrclk_source_pll.v"/>
       <outfile xil_pn:name="../wfd125-mainfpga/ipcore_dir/s6_gtpwizard_v1_11/example_design/s6_gtpwizard_v1_11_top.v"/>
-      <outfile xil_pn:name="../wfd125-mainfpga/ipcore_dir/s6_gtpwizard_v1_11/implement/data_vio.ngc"/>
-      <outfile xil_pn:name="../wfd125-mainfpga/ipcore_dir/s6_gtpwizard_v1_11/implement/icon.ngc"/>
-      <outfile xil_pn:name="../wfd125-mainfpga/ipcore_dir/s6_gtpwizard_v1_11/implement/ila.ngc"/>
-      <outfile xil_pn:name="../wfd125-mainfpga/ipcore_dir/s6_gtpwizard_v1_11/implement/null_vio.ngc"/>
-      <outfile xil_pn:name="../wfd125-mainfpga/ipcore_dir/s6_gtpwizard_v1_11/implement/shared_vio.ngc"/>
       <outfile xil_pn:name="../wfd125-mainfpga/ipcore_dir/s6_gtpwizard_v1_11_tile.v"/>
     </transform>
     <transform xil_pn:end_ts="1428687380" xil_pn:in_ck="-1221661628838740799" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1428687380">
@@ -272,7 +267,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1476117346" xil_pn:in_ck="603613977857052627" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="4949024577423651660" xil_pn:start_ts="1476117292">
+    <transform xil_pn:end_ts="1732828586" xil_pn:in_ck="603613977857052627" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="4949024577423651660" xil_pn:start_ts="1732828558">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
@@ -290,27 +285,24 @@
       <outfile xil_pn:name="webtalk_pn.xml"/>
       <outfile xil_pn:name="xst"/>
     </transform>
-    <transform xil_pn:end_ts="1476118761" xil_pn:in_ck="-489406137388668716" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="8767341520758223336" xil_pn:start_ts="1476118761">
+    <transform xil_pn:end_ts="1732829011" xil_pn:in_ck="-489406137388668716" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="8767341520758223336" xil_pn:start_ts="1732829011">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1476118772" xil_pn:in_ck="779611510340693928" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-2500476194847599682" xil_pn:start_ts="1476118761">
+    <transform xil_pn:end_ts="1732829015" xil_pn:in_ck="-6647520174649082118" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-2500476194847599682" xil_pn:start_ts="1732829011">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
       <outfile xil_pn:name="_ngo"/>
       <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
       <outfile xil_pn:name="fpga_maind.bld"/>
       <outfile xil_pn:name="fpga_maind.ngd"/>
       <outfile xil_pn:name="fpga_maind_ngdbuild.xrpt"/>
     </transform>
-    <transform xil_pn:end_ts="1476118887" xil_pn:in_ck="-6647520174649082117" xil_pn:name="TRANEXT_map_spartan6" xil_pn:prop_ck="162888403099749330" xil_pn:start_ts="1476118772">
+    <transform xil_pn:end_ts="1732829067" xil_pn:in_ck="-6647520174649082117" xil_pn:name="TRANEXT_map_spartan6" xil_pn:prop_ck="162888403099749330" xil_pn:start_ts="1732829015">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
@@ -323,12 +315,10 @@
       <outfile xil_pn:name="fpga_maind_summary.xml"/>
       <outfile xil_pn:name="fpga_maind_usage.xml"/>
     </transform>
-    <transform xil_pn:end_ts="1476119166" xil_pn:in_ck="3667790734077875092" xil_pn:name="TRANEXT_par_spartan6" xil_pn:prop_ck="3214117756270688487" xil_pn:start_ts="1476118887">
+    <transform xil_pn:end_ts="1732829147" xil_pn:in_ck="3667790734077875092" xil_pn:name="TRANEXT_par_spartan6" xil_pn:prop_ck="3214117756270688487" xil_pn:start_ts="1732829067">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
       <outfile xil_pn:name="fpga_maind.ncd"/>
       <outfile xil_pn:name="fpga_maind.pad"/>
@@ -340,11 +330,9 @@
       <outfile xil_pn:name="fpga_maind_pad.txt"/>
       <outfile xil_pn:name="fpga_maind_par.xrpt"/>
     </transform>
-    <transform xil_pn:end_ts="1476119201" xil_pn:in_ck="-4445683415966610071" xil_pn:name="TRANEXT_bitFile_spartan6" xil_pn:prop_ck="396117104113915555" xil_pn:start_ts="1476119166">
+    <transform xil_pn:end_ts="1732829167" xil_pn:in_ck="-4445683415966610071" xil_pn:name="TRANEXT_bitFile_spartan6" xil_pn:prop_ck="396117104113915555" xil_pn:start_ts="1732829147">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
       <outfile xil_pn:name="fpga_maind.bgn"/>
       <outfile xil_pn:name="fpga_maind.bit"/>
@@ -358,7 +346,6 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="InputAdded"/>
       <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="InputRemoved"/>
@@ -367,17 +354,15 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="InputAdded"/>
       <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="InputRemoved"/>
       <status xil_pn:value="OutputRemoved"/>
     </transform>
-    <transform xil_pn:end_ts="1476119166" xil_pn:in_ck="-6647520174649082249" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416184" xil_pn:start_ts="1476119152">
+    <transform xil_pn:end_ts="1732829147" xil_pn:in_ck="-6647520174649082249" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416184" xil_pn:start_ts="1732829139">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
       <outfile xil_pn:name="fpga_maind.twr"/>
       <outfile xil_pn:name="fpga_maind.twx"/>
@@ -386,7 +371,6 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="InputAdded"/>
       <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="InputRemoved"/>
